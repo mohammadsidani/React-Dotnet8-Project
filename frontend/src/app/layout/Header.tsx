@@ -1,5 +1,5 @@
-import { ShoppingCart } from '@mui/icons-material';
-import { AppBar, Badge, Box, IconButton, List, ListItem, Switch, Toolbar, Typography } from "@mui/material";
+import { ShoppingCart, Brightness4, Brightness7 } from '@mui/icons-material';
+import { AppBar, Badge, Box, IconButton, List, ListItem, Toolbar, Typography } from "@mui/material";
 import { Link, NavLink } from 'react-router-dom';
 import { useAppSelector } from '../store/configureStore';
 import SignedInMenu from './SignedInMenu';
@@ -45,7 +45,9 @@ export default function Header({ handleThemeChange, darkMode }: Props) {
                     >
                         Shoppywise
                     </Typography>
-                    <Switch checked={darkMode} onChange={handleThemeChange} />
+                    <IconButton onClick={handleThemeChange}>
+                        {darkMode ? <Brightness7 /> : <Brightness4 />}
+                    </IconButton>
                 </Box>
                 <List sx={{ display: 'flex' }}>
                     {midLinks.map(({ title, path }) => (
