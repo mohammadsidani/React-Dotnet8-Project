@@ -71,3 +71,7 @@ yup: for react-hook-form input validation
 SaaS
 
 Stripe
+
+# Documentation
+
+Please for more information check the manual attached "Shoppywise - Documentation.pdf".
