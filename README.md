@@ -3,12 +3,12 @@
 This repository contains the source code for my e-commerce website, using ASP.NET Core backend, React.js with TypeScript frontend, and SaaS integrations such as Stripe for payments.
 
 # Secrets
-Secrets
+
 Secrets need to be stored in
 
 Development
 
-MyShop/appSettings.Development.json
+React-Dotnet8-Project/appSettings.Development.json
 
 client/.env.development
 
