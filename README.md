@@ -8,9 +8,9 @@ Secrets need to be stored in
 
 Development
 
-React-Dotnet8-Project/appSettings.Development.json
+API/appSettings.Development.json
 
-client/.env.development
+frontend/.env.development
 
 Required secrets:
 
